@@ -1,0 +1,85 @@
+Readme
+
+"Lorputer" is a style-userscripts set for web-site Linu.org.ru.
+
+"Lorputer" uses Creative Commons Share-alike license (see CC-SA file for more information)
+
+This set contains:
+	*	CSS-files (*.css)
+	*	JavaScript-files (*.user.js)
+	
+"Lorputer" uses FatCow icon set*
+	
+Installation
+
+	The process of installation for Mozilla Firefox web-browser:
+	
+	1)  Install "Stylish"** and "Greasemonkey"*** extensions.
+	2)  Call extensions panel by pressing "CTRL+\"
+	3)  Go to http://www.linux.org.ru
+	4)  Find "Stylish" button, press it and choose "Add new style > Empty style"
+	5)  Copy the content of the "lorputer.css" to the window.
+	6)  Name it and press "Save"
+	7)  Save "idadder.user.js" to your local machine.
+	8)  Open "idadder.user.js" from your local machine by Firefox.
+	9)  Confirm the installation. You may delete the local file after that.
+	10) Save "lorputer.user.js" to your local machine.
+	11) Open "lorputer.user.js" from your local machine by Firefox.
+	12) Confirm the installation. You may delete the local file after that.
+
+Contributions
+
+Q: I want to sen pull request for the project. Will you accept it?
+A: If the pull request adds some functionality or fixes bug - yes. But make sure, that you wrote the code with using the next rules:
+
+	CSS:
+	1)  Write the colors always as rgba-format. It's easier to recognize the color after that. Plus because of transparent functionality and easier "lighter-darker" stuff.
+	2)  Write the full path (like "html > body > div#hd a.example") for fast finding the block. I don't want to spend hours to find the block on the page.
+	3)  Leave comments. Even if it obvious. Because it's the only way to understand what this thing does after the 6 months (or two bottles).
+	4)  Leave comments in English. I don't want to see the squares when I use my calculator to browse the code.
+	
+	JavaScript:
+	I'm not so good in JavaScript, but here is some rules:
+	1) Leave comments. In English.
+	2) DO NOT CHANGE idadder.user.js.
+		Exception: If you will change all used id marks in all other code - go on.
+	3) Use BSD code-style.
+	4) When attaching the inner js to blocks, use "\" to divide it in source to a several lines and make it readable.
+
+Q: May I use this proje...
+A: Yes.
+
+Q: May I sell...
+A: Yes, don't bother me.
+
+Q: How about to change the...
+A: Send me pull request or go to hell.
+
+Q: Why do you need idadder.user.js?
+A: For identifying the blocks. For example, change the "Форум" caption at http://www.linux.org.ru/forum/ page, but don't change "Информация о..." at http://www.linux.org.ru/people/username/profile page. Got it?
+
+Q: Why don't you merge idadder.user.js to lorputer.user.js?
+A: To have a possibility to use it in another project. For me, for you, blah, blah, blah. It's a feature.
+
+Q: I found a bug.
+A: Add it to bugtracker.
+
+Q: I have a mac and reti...
+A: My apologies.
+
+Q: Why do you use this codestyle? It's nasty!
+A: Shut up. I use BSD-style in js, so, if you want to contribute, use the same thing.
+
+Q: I see shitcode.
+A: Make a pull request.
+
+Q: I want to use it in Google Chrome.
+A: It didn't tested there, so if you want to, make a pull request.
+
+Q: I want to add an icon to code.
+A:	a) Go to FatCow.com and download the icon pack,
+	b) Use Base64 to put it in code.
+
+*			FatCow company : http://www.fatcow.com
+**			Stylish extension : http://userstyles.org/
+***		Greasemonkey extension : http://www.greasespot.net/
